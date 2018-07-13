@@ -13,6 +13,6 @@ module.exports = Object.freeze({
 
     mobile_type: 'virtual',
     //mobile_time: 1000, //Development value
-    mobile_time: 60000, //Real value
+    mobile_time: 10000, //Real value
     mobile_kafka_topic: 'mobile-topic',
 });
