@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+const SimulatorMain = require('./SimulatorMain.js');
+
+const argv = require('minimist')(process.argv.slice(2));
+
+new SimulatorMain(argv);

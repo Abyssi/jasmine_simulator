@@ -1,0 +1,13 @@
+{
+  "name": "jasmine_simulator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "main": "node ./bin/main",
+    "generate": "node ./bin/generate"
+  },
+  "dependencies": {
+    "npm": "latest",
+    "minimist": "latest"
+  }
+}
