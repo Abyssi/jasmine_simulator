@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 module.exports = Object.freeze({
-    spring_host: 'www.jasmine.cf:32082',
-    //spring_host: 'localhost:8082',
-    kafka_broker: 'www.jasmine.cf:32094',
-    //kafka_broker: 'localhost:9092',
+    //spring_host: 'www.jasmine.cf:32082',
+    spring_host: 'localhost:8082',
+    //kafka_broker: 'www.jasmine.cf:32094',
+    kafka_broker: 'localhost:9092',
 
     semaphore_type: 'virtual',
     //semaphore_time: 1000, //Development value
