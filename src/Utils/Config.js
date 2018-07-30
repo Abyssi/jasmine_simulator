@@ -8,11 +8,13 @@ module.exports = Object.freeze({
 
     semaphore_type: 'virtual',
     //semaphore_time: 1000, //Development value
-    semaphore_time: 60000, //Real value
+    //semaphore_time: 60000, //Real value
+    semaphore_time: 4000, //Presentation value
     semaphore_kafka_topic: 'semaphore-topic',
 
     mobile_type: 'virtual',
     //mobile_time: 1000, //Development value
-    mobile_time: 10000, //Real value
+    //mobile_time: 10000, //Real value
+    mobile_time: 667, //Presentation value
     mobile_kafka_topic: 'mobile-topic',
 });

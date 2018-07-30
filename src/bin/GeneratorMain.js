@@ -77,6 +77,8 @@ class SemaphoreMain {
 
     generateRESTSemaphores(folder) {
         let size = 100;
+
+        //Comment here to not make the generation request
         http.put("http://" + Config.spring_host + "/api/v1/generate/" + size + "/true", function (statusCode, response) {
             http.getJSON("http://" + Config.spring_host + "/api/v1/crossroads/?page=0&pageSize=" + size, function (statusCode, response) {
                 let semaphoreList = [];
